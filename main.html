@@ -49,5 +49,16 @@
       </table>
     </aside>
   </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      if (/Mobi|Android/i.test(navigator.userAgent)) {
+        let table = document.getElementById("infoTable");
+        
+        document.querySelector("footer").appendChild(table);
+      }
+    });
+  </script>
+  
 </body>
 </html>
