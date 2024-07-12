@@ -2,6 +2,13 @@ body {
     background-color: #F08080;
 }
 
+.logo {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
 .timer {
     text-align: center;
     float: bottom;
