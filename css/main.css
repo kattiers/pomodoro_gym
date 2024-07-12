@@ -201,11 +201,7 @@ aside {
         margin: 10px auto;
     }
 
-    table {
-        display: none;
-    }
-
-    aside {
+    table, .aside {
         display: none;
     }
 
@@ -215,4 +211,5 @@ aside {
         flex-direction: column;
         align-items: center;
     }
+}
 }
