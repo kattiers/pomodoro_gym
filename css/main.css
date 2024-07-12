@@ -202,7 +202,7 @@ aside {
     }
 
     table, .aside {
-        display: none;
+        display: none !important;
     }
 
     .footer-table-container {
