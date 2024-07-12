@@ -142,64 +142,64 @@ aside {
 
 @media (max-width: 767px) {
     .logo {
-        font-size: 10px;
-        margin-top: 5px;
+        font-size: 14px;
+        margin-top: 10px;
     }
 
     #time {
-        font-size: 400%;
+        font-size: 600%;
     }
 
     #startCounting,
     #stopCounting {
-        height: 30px;
-        width: 100px;
-        font-size: 16px;
-        margin-right: 10px;
+        height: 40px;
+        width: 120px;
+        font-size: 18px;
+        margin-right: 20px;
     }
 
     .timeRegulation {
-        margin-left: 10px;
+        margin-left: 15px;
     }
 
     #moreTime,
     #lessTime {
-        height: 30px;
+        height: 40px;
     }
 
     section {
-        margin-top: 60px;
-        width: 90%;
+        margin-top: 80px;
+        width: 95%;
         height: auto;
-        margin: 20px auto;
+        margin: 30px auto;
     }
 
     #creature {
-        height: 200px;
-        margin-top: 50px;
+        height: 250px;
+        margin-top: 60px;
     }
 
     footer {
-        margin-top: 60px;
+        margin-top: 80px;
         height: auto;
     }
 
     #rank {
-        font-size: 24px;
-        padding: 8px;
+        font-size: 28px;
+        padding: 12px;
         display: block;
-        width: 300px;
+        width: 350px;
         margin: 0 auto;
     }
 
     #howToGetRanks {
-        width: 200px;
-        height: 60px;
-        font-size: 90%;
-        margin-top: 40px;
-        line-height: 40px;
+        width: 250px;
+        height: 80px;
+        font-size: 100%;
+        margin-top: 60px;
+        line-height: 80px;
         display: block;
-        margin: 10px auto;
+        margin: 20px auto;
     }
 
     table, .aside {
