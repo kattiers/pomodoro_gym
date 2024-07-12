@@ -53,9 +53,10 @@
   <script>
     document.addEventListener("DOMContentLoaded", function() {
       if (/Mobi|Android/i.test(navigator.userAgent)) {
-        let table = document.getElementById("infoTable");
+        let table = document.getElementById("table");
+        let aside = document.querySelector(".aside");
         table.style.display = "none";
-        document.querySelector("footer").appendChild(table);
+        aside.style.display = "none";
       }
     });
   </script>
