@@ -54,7 +54,7 @@
     document.addEventListener("DOMContentLoaded", function() {
       if (/Mobi|Android/i.test(navigator.userAgent)) {
         let table = document.getElementById("infoTable");
-        
+        table.style.display = "none";
         document.querySelector("footer").appendChild(table);
       }
     });
