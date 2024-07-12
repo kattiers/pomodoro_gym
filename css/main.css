@@ -1,0 +1,125 @@
+body {
+    background-color: #F08080;
+}
+
+.timer {
+    text-align: center;
+    float: bottom;
+}
+
+#time {
+    display: inline-block;
+    color: white;
+    font-size: 800%;
+}
+
+#startCounting,
+#stopCounting {
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 10%;
+    font-size: 20px;
+    margin-right: 45px;
+    cursor: pointer;
+}
+
+.timeRegulation {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#moreTime,
+#lessTime {
+    display: block;
+    background-color: rgba(28, 28, 28, 0);
+    border: none;
+    height: 38px;
+    border-radius: 15%;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+#lessTime {
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+section {
+    background: white;
+    display: inline-block;
+    border-radius: 10%;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 1000px;
+    height: 500px;
+}
+
+#creature {
+    display: inline-block;
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 350px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    height: 100px;
+}
+
+#rank {
+    background-color: white;
+    border-radius: 10%;
+    font-size: 25px;
+    clear: both;
+}
+
+#howToGetRanks {
+    display: block;
+    background-color: white;
+    border-radius: 10%;
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    font-size: 80%;
+    margin-top: 20px;
+    margin-left: 48%;
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+    font-size: 20px;
+    width: 400px;
+    border: 2px solid white;
+    position: absolute;
+    top: 235px;
+}
+
+td {
+    border: 1px solid black;
+}
+
+tr {
+    height: 10px;
+}
+
+#space {
+    height: 20px;
+    background-color: #F08080;
+    border: none;
+}
+
+#main {
+    text-align: center;
+}
+
+aside {
+    display: inline-block;
+    margin-left: 150px;
+}

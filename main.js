@@ -29,22 +29,22 @@ function workingCreature(randNumber) {
   if (randNumber == 2 && deleteOrNot == false) { // = работа, цифра 2, не выключать
     if (ifRest == false) {
       if (launchGIF == false && position == 1) {
-        document.getElementById("creature").src = "1.2.png";
+        document.getElementById("creature").src = "img/1.2.png";
         position++;
       }
 
       else if (launchGIF == false && position == 2) {
-        document.getElementById("creature").src = "2.2.png";
+        document.getElementById("creature").src = "img/2.2.png";
         launchGIF = true;
       }
 
       else if (launchGIF == true) {
         if (seconds % 2 != 0) {
-          document.getElementById("creature").src = "2.2.png";
+          document.getElementById("creature").src = "img/2.2.png";
         }
 
         else {
-          document.getElementById("creature").src = "3.2.png";
+          document.getElementById("creature").src = "img/3.2.png";
         }
       }
     }
@@ -53,16 +53,16 @@ function workingCreature(randNumber) {
   else if (randNumber != 2 && deleteOrNot == false) { // работа, цифра 1, не выключать
     if (ifRest == false) {
       if (launchGIF == false) {
-        document.getElementById("creature").src = "1.1.png";
+        document.getElementById("creature").src = "img/1.1.png";
         launchGIF = true;
       }
       else if (launchGIF == true) {
         if (seconds % 2 != 0) {
-          document.getElementById("creature").src = "2.1.png";
+          document.getElementById("creature").src = "img/2.1.png";
         }
 
         else {
-          document.getElementById("creature").src = "3.1.png";
+          document.getElementById("creature").src = "img/3.1.png";
         }
       }
     }
@@ -74,19 +74,19 @@ function workingCreature(randNumber) {
       if (v == 0) {
         console.log("Рандомное число: ", randNumber);
         if (randNumber == 1) {
-          document.getElementById("creature").src = "1.1.png";
+          document.getElementById("creature").src = "img/1.1.png";
           console.log("выход из работы, число 1 = штанга");
         }
         console.log("Рандомное число: ", randNumber);
         if (randNumber != 1) {
-          document.getElementById("creature").src = "1.2.png";
+          document.getElementById("creature").src = "img/1.2.png";
           console.log("выход из работы, число 2 = присед");
         }
         v++;
       }
 
       else if (v == 1) {
-        document.getElementById("creature").src = "creature.png";
+        document.getElementById("creature").src = "img/creature.png";
         clearInterval(interval1);
       }
     }, 1000);
@@ -97,11 +97,11 @@ function workingCreature(randNumber) {
   if (ifRest == true && randNumber == 1) { // отдых, число 1, не выключать
     if (deleteOrNot == false) {
       if (position2 == 2) {
-        document.getElementById("creature").src = "5.1.png";
+        document.getElementById("creature").src = "img/5.1.png";
       }
 
       else if (position2 == 1) {
-        document.getElementById("creature").src = "4.png";
+        document.getElementById("creature").src = "img/4.png";
         console.log("Число1 ");
         position2++;
       }
@@ -111,11 +111,11 @@ function workingCreature(randNumber) {
   else if (ifRest == true && randNumber != 1) { // отдых, число 2, не выключать
     if (deleteOrNot == false) {
       if (position2 == 2) {
-        document.getElementById("creature").src = "5.png";
+        document.getElementById("creature").src = "img/5.png";
       }
 
       else if (position2 == 1) {
-        document.getElementById("creature").src = "4.png";
+        document.getElementById("creature").src = "img/4.png";
         console.log("Число2 ");
         position2++;
       }
@@ -125,18 +125,18 @@ function workingCreature(randNumber) {
   if (ifRest == true && deleteOrNot == true) { // отдых, выключать
     let interval2 = setInterval(function() {
       if (randNumber == 1 && position3 == 1) {
-        document.getElementById("creature").src = "6.png";
+        document.getElementById("creature").src = "img/6.png";
         position3++;
       }
 
       else if (position3 == 2) {
-        document.getElementById("creature").src = "creature.png";
+        document.getElementById("creature").src = "img/creature.png";
         position3 = 1;
         clearInterval(interval2);
       }
 
       else if (randNumber != 1 && position3 == 1) {
-        document.getElementById("creature").src = "4.png";
+        document.getElementById("creature").src = "img/4.png";
         position3++;
       }
     }, 1000);
@@ -145,7 +145,7 @@ function workingCreature(randNumber) {
 
 function recordingSets(sets) {
   let deleteArray = [];
-  let date = "27.04.2023"; // new Date().toLocaleDateString();
+  let date = new Date().toLocaleDateString();
   for (let i = 0; i < localStorage.length; i++) {
     key = localStorage.key(i);
     if (key == date) {
