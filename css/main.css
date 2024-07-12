@@ -202,15 +202,15 @@ aside {
         margin: 20px auto;
     }
 
-    table, .aside {
-        display: none !important;
-    }
-
     .footer-table-container {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    
+    table, .aside {
+        display: none !important;
     }
 }
 }
