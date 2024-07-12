@@ -1,5 +1,6 @@
 body {
     background-color: #F08080;
+    font-family: Arial, sans-serif;
 }
 
 .logo {
@@ -129,4 +130,75 @@ tr {
 aside {
     display: inline-block;
     margin-left: 150px;
+}
+
+
+@media (max-width: 767px) {
+    .logo {
+        font-size: 10px;
+        margin-top: 5px;
+    }
+
+    #time {
+        font-size: 400%;
+    }
+
+    #startCounting,
+    #stopCounting {
+        height: 30px;
+        width: 100px;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    .timeRegulation {
+        margin-left: 10px;
+    }
+
+    #moreTime,
+    #lessTime {
+        height: 30px;
+    }
+
+    section {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20px;
+    }
+
+    #creature {
+        height: 200px;
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+
+    #rank {
+        font-size: 18px;
+    }
+
+    #howToGetRanks {
+        width: 70px;
+        height: 30px;
+        font-size: 70%;
+        margin-top: 10px;
+        margin-left: 45%;
+    }
+
+    table {
+        width: 90%;
+        font-size: 16px;
+        position: static;
+        margin: 20px auto;
+    }
+
+    aside {
+        display: block;
+        margin-left: 0;
+    }
 }

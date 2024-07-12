@@ -1,5 +1,6 @@
 body {
     background-color: #F08080;
+    font-family: Arial, sans-serif;
 }
 
 #title {
@@ -18,4 +19,17 @@ body {
 
 a {
     color: white;
+}
+
+
+@media (max-width: 767px) {
+    #title {
+        font-size: 500%;
+        margin-top: 30%;
+    }
+
+    .start {
+        font-size: 300%;
+        margin-top: 20px;
+    }
 }
