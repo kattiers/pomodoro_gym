@@ -6,6 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    flex-direction: column;
 }
 
 #title {
@@ -17,7 +18,7 @@ body {
 .start {
     color: white;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 500%;
 }
 
