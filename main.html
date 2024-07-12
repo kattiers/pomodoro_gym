@@ -50,5 +50,16 @@
     </aside>
   </div>
   
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      if (/Mobi|Android/i.test(navigator.userAgent)) {
+        let table = document.getElementById("table");
+        let aside = document.querySelector(".aside");
+        table.style.display = "none";
+        aside.style.display = "none";
+      }
+    });
+  </script>
+  
 </body>
 </html>
