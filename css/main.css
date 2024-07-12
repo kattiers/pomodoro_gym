@@ -206,10 +206,7 @@ aside {
     }
 
     aside {
-        display: block;
-        margin-left: 0;
-        margin-top: 20px;
-        position: static;
+        display: none;
     }
 
     .footer-table-container {
