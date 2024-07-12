@@ -168,6 +168,7 @@ aside {
     }
 
     section {
+        margin-top: 60px;
         width: 90%;
         height: auto;
         margin: 20px auto;
@@ -179,7 +180,7 @@ aside {
     }
 
     footer {
-        margin-top: 20px;
+        margin-top: 60px;
         height: auto;
     }
 
@@ -187,15 +188,15 @@ aside {
         font-size: 24px;
         padding: 8px;
         display: block;
-        width: fit-content;
+        width: 300px;
         margin: 0 auto;
     }
 
     #howToGetRanks {
-        width: 150px;
-        height: 40px;
+        width: 200px;
+        height: 60px;
         font-size: 90%;
-        margin-top: 10px;
+        margin-top: 40px;
         line-height: 40px;
         display: block;
         margin: 10px auto;
